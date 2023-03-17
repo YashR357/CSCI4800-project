@@ -1,0 +1,95 @@
+body{
+	background:#F5F5F5;
+	color:black;
+}
+h1{
+	background:#BA0C2F;
+	text-align:center;
+	padding: 20px;
+	border-radius: 20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family:Courier New;
+	-webkit-text-stroke: 2px black;
+	color:black;
+	letter-spacing: 10px;
+}
+h2{
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family:Courier New;
+	text-align:center;
+}
+.buttons{
+	margin: auto;
+    justify-content: center;
+    display: flex;
+	width: 100%;
+}
+.button{
+	width: 33%;
+    display: grid;
+	padding: 20px;
+	background: black;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: Courier New;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing:3px;
+}
+a:hover{
+	color:#BA0C2F;
+}
+.content{
+	width: 95%;
+	justify-content: center;
+	margin: auto;
+}
+.teamMembers{
+	width: 20%;
+	display: inline-block;
+	height: 512px;
+}
+.synopsis{
+	width: 70%;
+	float: right;
+	display: inline-block;
+	border-left: 5px solid black;
+	border-left-style: dotted;
+	padding-left: 7%;
+}
+p{
+	text-align: justify;
+	text-justify: inter-word;
+	font-family: courier new;
+	line-height: 140%;
+}
+.cite{
+	text-align: justify;
+	text-justify: inter-word;
+	font-family: courier new;
+	line-height: 100%;
+}
+li{
+	font-family: courier new;
+	line-height: 250%;
+	list-style: none;
+	margin-left: -40px;
+	text-align:center;
+}
+.links{
+	color: #BA0C2F;
+	font-size: 17px;
+}
+.links:hover{
+	color: black;
+}
+.video{
+	margin:auto;
+	justify-content: center;
+	display:flex;
+}
