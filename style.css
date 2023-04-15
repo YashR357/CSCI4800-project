@@ -44,6 +44,13 @@ a{
 a:hover{
 	color:#BA0C2F;
 }
+.milestone3-link {
+	color: blue;
+	text-align: center;
+}
+.link {
+	text-align:center;
+}
 .content{
 	width: 95%;
 	justify-content: center;
@@ -92,4 +99,7 @@ li{
 	margin:auto;
 	justify-content: center;
 	display:flex;
+}
+.pdf {
+	text-align: center;
 }
